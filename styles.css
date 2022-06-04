@@ -17,6 +17,11 @@ body{
   grid-column: 1/2;
   border: solid black 1px;
 }
+.playerSelct{
+  display: flex;
+  justify-content: center;
+  gap:10px;
+}
 
 /* head start  */
 .head{
