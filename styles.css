@@ -3,7 +3,7 @@
 }
 body{
   margin:0;
-  background-color: lightblue;
+
 }
 .container{
   display: grid;
@@ -17,11 +17,17 @@ body{
   grid-column: 1/2;
   border: solid black 1px;
 }
-.playerSelct{
+.playerSelect{
   display: flex;
-  justify-content: center;
+  flex-direction:column;
+  align-items: center;
   gap:10px;
 }
+.markers{
+  display: flex;
+  gap: 10px;
+}
+
 
 /* head start  */
 .head{
@@ -40,15 +46,19 @@ body{
   align-items: center;
 }
 .game{
-  border: solid black 2px;
+  /* border: solid black 2px; */
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr;
   width: 35%;
   height: 70%;
 }
+
 .gameboard{
   border: solid orange 1px;
+}
+.gameboard:nth-child(n+3){
+  border-right: none;
 }
 /* footer start */
 .footer{
