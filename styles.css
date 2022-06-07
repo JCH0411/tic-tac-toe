@@ -60,6 +60,11 @@ body{
 .gameboard:nth-child(n+3){
   border-right: none;
 }
+.game-cell{
+  text-align: center;
+  font-size: 2em;
+  line-height: 100%;
+}
 /* footer start */
 .footer{
   grid-column:2/3;
