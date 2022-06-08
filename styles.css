@@ -56,6 +56,7 @@ body{
 
 .gameboard{
   border: solid orange 1px;
+  padding:15px;
 }
 .gameboard:nth-child(n+3){
   border-right: none;
@@ -63,7 +64,7 @@ body{
 .game-cell{
   text-align: center;
   font-size: 2em;
-  line-height: 100%;
+  margin:0;
 }
 /* footer start */
 .footer{
